@@ -140,7 +140,6 @@
         "fuel_type": "gasoline",
         "transmission": "automatic"
       },
-      // Add 4 more cars here...
       {
         "carname": "Toyota RAV4",
         "model": "XLE",
