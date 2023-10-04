@@ -1,0 +1,605 @@
+{
+    "cars": [
+      {
+        "carname": "Toyota Camry",
+        "model": "LE",
+        "launch_year": 2018,
+        "image": "toyota_camry.jpg",
+        "seats": 5,
+        "mileage_per_litre": 32.5,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Honda Civic",
+        "model": "EX",
+        "launch_year": 2019,
+        "image": "honda_civic.jpg",
+        "seats": 5,
+        "mileage_per_litre": 30.2,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Ford Mustang",
+        "model": "GT",
+        "launch_year": 2020,
+        "image": "ford_mustang.jpg",
+        "seats": 4,
+        "mileage_per_litre": 22.0,
+        "fuel_type": "gasoline",
+        "transmission": "manual"
+      },
+      {
+        "carname": "Tesla Model 3",
+        "model": "Standard Range Plus",
+        "launch_year": 2021,
+        "image": "tesla_model_3.jpg",
+        "seats": 5,
+        "mileage_per_litre": 0,
+        "fuel_type": "electric",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Chevrolet Silverado",
+        "model": "LTZ",
+        "launch_year": 2022,
+        "image": "chevrolet_silverado.jpg",
+        "seats": 6,
+        "mileage_per_litre": 18.5,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Volkswagen Golf",
+        "model": "GTI",
+        "launch_year": 2023,
+        "image": "volkswagen_golf.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Audi A4",
+        "model": "Premium",
+        "launch_year": 2022,
+        "image": "audi_a4.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.3,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "BMW X5",
+        "model": "xDrive40i",
+        "launch_year": 2023,
+        "image": "bmw_x5.jpg",
+        "seats": 5,
+        "mileage_per_litre": 20.7,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mercedes-Benz C-Class",
+        "model": "C300",
+        "launch_year": 2022,
+        "image": "mercedes_c_class.jpg",
+        "seats": 5,
+        "mileage_per_litre": 24.5,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Lexus RX",
+        "model": "RX 350",
+        "launch_year": 2023,
+        "image": "lexus_rx.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.4,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Ford Explorer",
+        "model": "XLT",
+        "launch_year": 2022,
+        "image": "ford_explorer.jpg",
+        "seats": 7,
+        "mileage_per_litre": 21.2,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Jeep Wrangler",
+        "model": "Sahara",
+        "launch_year": 2022,
+        "image": "jeep_wrangler.jpg",
+        "seats": 4,
+        "mileage_per_litre": 17.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mazda CX-5",
+        "model": "Grand Touring",
+        "launch_year": 2022,
+        "image": "mazda_cx5.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.0,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Subaru Impreza",
+        "model": "Sport",
+        "launch_year": 2023,
+        "image": "subaru_impreza.jpg",
+        "seats": 5,
+        "mileage_per_litre": 29.1,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      // Add 4 more cars here...
+      {
+        "carname": "Toyota RAV4",
+        "model": "XLE",
+        "launch_year": 2022,
+        "image": "toyota_rav4.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.5,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Nissan Sentra",
+        "model": "SV",
+        "launch_year": 2023,
+        "image": "nissan_sentra.jpg",
+        "seats": 5,
+        "mileage_per_litre": 28.7,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Hyundai Kona",
+        "model": "Ultimate",
+        "launch_year": 2022,
+        "image": "hyundai_kona.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.9,
+        "fuel_type": "electric",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "GMC Sierra",
+        "model": "AT4",
+        "launch_year": 2023,
+        "image": "gmc_sierra.jpg",
+        "seats": 5,
+        "mileage_per_litre": 19.4,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Acura MDX",
+        "model": "Technology",
+        "launch_year": 2022,
+        "image": "acura_mdx.jpg",
+        "seats": 7,
+        "mileage_per_litre": 23.4,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Kia Sportage",
+        "model": "SX Turbo",
+        "launch_year": 2023,
+        "image": "kia_sportage.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Volvo XC60",
+        "model": "Inscription",
+        "launch_year": 2023,
+        "image": "volvo_xc60.jpg",
+        "seats": 5,
+        "mileage_per_litre": 24.7,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Porsche 911",
+        "model": "Carrera S",
+        "launch_year": 2023,
+        "image": "porsche_911.jpg",
+        "seats": 4,
+        "mileage_per_litre": 18.6,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mitsubishi Outlander",
+        "model": "SE",
+        "launch_year": 2023,
+        "image": "mitsubishi_outlander.jpg",
+        "seats": 7,
+        "mileage_per_litre": 25.2,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Jeep Grand Cherokee",
+        "model": "Limited",
+        "launch_year": 2022,
+        "image": "jeep_grand_cherokee.jpg",
+        "seats": 5,
+        "mileage_per_litre": 20.9,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Chevrolet Equinox",
+        "model": "Premier",
+        "launch_year": 2022,
+        "image": "chevrolet_equinox.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.0,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Nissan Rogue",
+        "model": "SV",
+        "launch_year": 2023,
+        "image": "nissan_rogue.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.3,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Hyundai Tucson",
+        "model": "Limited",
+        "launch_year": 2022,
+        "image": "hyundai_tucson.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.6,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Subaru Forester",
+        "model": "Touring",
+        "launch_year": 2023,
+        "image": "subaru_forester.jpg",
+        "seats": 5,
+        "mileage_per_litre": 28.4,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Audi Q5",
+        "model": "Premium Plus",
+        "launch_year": 2023,
+        "image": "audi_q5.jpg",
+        "seats": 5,
+        "mileage_per_litre": 24.8,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "BMW 3 Series",
+        "model": "330i",
+        "launch_year": 2023,
+        "image": "bmw_3_series.jpg",
+        "seats": 5,
+        "mileage_per_litre": 23.7,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Lexus ES",
+        "model": "ES 350",
+        "launch_year": 2022,
+        "image": "lexus_es.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.9,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Ford F-150",
+        "model": "Lariat",
+        "launch_year": 2023,
+        "image": "ford_f150.jpg",
+        "seats": 6,
+        "mileage_per_litre": 20.3,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mercedes-Benz GLC",
+        "model": "GLC 300",
+        "launch_year": 2023,
+        "image": "mercedes_glc.jpg",
+        "seats": 5,
+        "mileage_per_litre": 23.2,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Toyota Highlander",
+        "model": "XLE",
+        "launch_year": 2022,
+        "image": "toyota_highlander.jpg",
+        "seats": 8,
+        "mileage_per_litre": 24.6,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Nissan Altima",
+        "model": "SR",
+        "launch_year": 2023,
+        "image": "nissan_altima.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.1,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Hyundai Sonata",
+        "model": "Limited",
+        "launch_year": 2022,
+        "image": "hyundai_sonata.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.3,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "GMC Terrain",
+        "model": "Denali",
+        "launch_year": 2022,
+        "image": "gmc_terrain.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.0,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Jeep Compass",
+        "model": "Limited",
+        "launch_year": 2023,
+        "image": "jeep_compass.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Honda Accord",
+        "model": "Sport",
+        "launch_year": 2023,
+        "image": "honda_accord.jpg",
+        "seats": 5,
+        "mileage_per_litre": 28.5,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Chevrolet Camaro",
+        "model": "ZL1",
+        "launch_year": 2023,
+        "image": "chevrolet_camaro.jpg",
+        "seats": 4,
+        "mileage_per_litre": 17.3,
+        "fuel_type": "gasoline",
+        "transmission": "manual"
+      },
+      {
+        "carname": "Volkswagen Passat",
+        "model": "SE",
+        "launch_year": 2022,
+        "image": "volkswagen_passat.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.2,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Subaru Outback",
+        "model": "Limited",
+        "launch_year": 2022,
+        "image": "subaru_outback.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.7,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Kia Sorento",
+        "model": "SX",
+        "launch_year": 2023,
+        "image": "kia_sorento.jpg",
+        "seats": 7,
+        "mileage_per_litre": 23.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Ford Escape",
+        "model": "SEL",
+        "launch_year": 2022,
+        "image": "ford_escape.jpg",
+        "seats": 5,
+        "mileage_per_litre": 25.1,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Toyota Corolla",
+        "model": "SE",
+        "launch_year": 2023,
+        "image": "toyota_corolla.jpg",
+        "seats": 5,
+        "mileage_per_litre": 29.5,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Nissan Maxima",
+        "model": "Platinum",
+        "launch_year": 2022,
+        "image": "nissan_maxima.jpg",
+        "seats": 5,
+        "mileage_per_litre": 26.4,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mazda MX-5 Miata",
+        "model": "Sport",
+        "launch_year": 2023,
+        "image": "mazda_miata.jpg",
+        "seats": 2,
+        "mileage_per_litre": 23.0,
+        "fuel_type": "gasoline",
+        "transmission": "manual"
+      },
+      {
+        "carname": "Jeep Cherokee",
+        "model": "Trailhawk",
+        "launch_year": 2022,
+        "image": "jeep_cherokee.jpg",
+        "seats": 5,
+        "mileage_per_litre": 21.7,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Honda Fit",
+        "model": "LX",
+        "launch_year": 2023,
+        "image": "honda_fit.jpg",
+        "seats": 5,
+        "mileage_per_litre": 30.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Chevrolet Malibu",
+        "model": "Premier",
+        "launch_year": 2022,
+        "image": "chevrolet_malibu.jpg",
+        "seats": 5,
+        "mileage_per_litre": 28.0,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Volkswagen Jetta",
+        "model": "SEL",
+        "launch_year": 2022,
+        "image": "volkswagen_jetta.jpg",
+        "seats": 5,
+        "mileage_per_litre": 29.3,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Subaru Legacy",
+        "model": "Touring",
+        "launch_year": 2023,
+        "image": "subaru_legacy.jpg",
+        "seats": 5,
+        "mileage_per_litre": 27.9,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Kia Rio",
+        "model": "S",
+        "launch_year": 2022,
+        "image": "kia_rio.jpg",
+        "seats": 5,
+        "mileage_per_litre": 32.1,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Ford Bronco",
+        "model": "Big Bend",
+        "launch_year": 2023,
+        "image": "ford_bronco.jpg",
+        "seats": 5,
+        "mileage_per_litre": 18.2,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Toyota Sienna",
+        "model": "XLE",
+        "launch_year": 2022,
+        "image": "toyota_sienna.jpg",
+        "seats": 7,
+        "mileage_per_litre": 22.3,
+        "fuel_type": "hybrid",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Nissan Murano",
+        "model": "Platinum",
+        "launch_year": 2022,
+        "image": "nissan_murano.jpg",
+        "seats": 5,
+        "mileage_per_litre": 24.8,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mazda3",
+        "model": "Hatchback",
+        "launch_year": 2023,
+        "image": "mazda3_hatchback.jpg",
+        "seats": 5,
+        "mileage_per_litre": 28.7,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Jeep Renegade",
+        "model": "Latitude",
+        "launch_year": 2023,
+        "image": "jeep_renegade.jpg",
+        "seats": 5,
+        "mileage_per_litre": 23.5,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Mitsubishi Mirage",
+        "model": "ES",
+        "launch_year": 2022,
+        "image": "mitsubishi_mirage.jpg",
+        "seats": 5,
+        "mileage_per_litre": 33.0,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      },
+      {
+        "carname": "Hyundai Accent",
+        "model": "SE",
+        "launch_year": 2023,
+        "image": "hyundai_accent.jpg",
+        "seats": 5,
+        "mileage_per_litre": 31.4,
+        "fuel_type": "gasoline",
+        "transmission": "automatic"
+      }
+    ]
+  }
